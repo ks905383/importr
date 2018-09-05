@@ -1,0 +1,10 @@
+Package: importr
+Title: Utilities to Ease the Import of Data from Stata, MATLAB, and Others
+Version: 1.1
+Authors@R: person("Kevin", "Schwarzwald", email = "kschwarzwald@uchicago.edu", role = c("aut", "cre"))
+Description: Currently contains fix_estout (converting STATA estout output into something useful) and struct2datatable (making the importation of structs from Matlab actually give you the data frames you want)
+Depends: R (>= 3.4.2)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
