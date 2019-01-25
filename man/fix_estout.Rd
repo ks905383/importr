@@ -21,7 +21,7 @@ Get point estimates and SEs/T-values as a numeric data frame
 }
 \details{
 Ever wanted to just access the numbers from estout without
-  having to deal with all the extra fluff included to make the output 
+  having to deal with all the extra fluff included to make the output
   readable by Excel, Word, or LaTeX? \code{fix_estout} is for you!
   \code{fix_estout} takes in a filename path to a .csv created by STATA's
   estout, and returns two data frames (in a list): \code{reg.results} giving
@@ -35,4 +35,5 @@ Ever wanted to just access the numbers from estout without
 }
 \examples{
 \dontrun{fix_estout("~/code/regression_output.csv")}
+
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/struct2datatable.R
 \name{struct2dataframe}
 \alias{struct2dataframe}
-\title{Laod MATLAB structs as R data frames}
+\title{Load MATLAB structs as R data frames}
 \usage{
 struct2dataframe(fn, var = c())
 }
@@ -11,7 +11,7 @@ struct2dataframe(fn, var = c())
 created by save(). The file must be saved in v6 or before (since R.matlab
 can't deal with HDF5-like files yet).}
 
-\item{var}{A character variable name, if a specific variable is desired from 
+\item{var}{A character variable name, if a specific variable is desired from
 the .mat file. If no variable is specified, \code{struct2datable} will attempt
 to process the first variable listed.}
 }
@@ -26,9 +26,10 @@ A simple wrapper for readMat for structs that additionally
 \details{
 \code{struct2dataframe} is basically just a replacement for a few
   lines of code, but saves some time and ensures that the struct you clearly
-  meant as a data frame for processing or plotting in R actually shows up as 
+  meant as a data frame for processing or plotting in R actually shows up as
   a data frame.
 }
 \examples{
 \dontrun{struct2dataframe("~/code/some_struct_v6.mat")}
+
 }
